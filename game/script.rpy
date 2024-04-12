@@ -27,7 +27,7 @@ label start:
     anom "…sure. i suppose i don’t mind."
     Verus "Vmy name is Verus Lumiere. i suppose i was a college student until about 8:10pm last night, when I was apprehended by detective bruntforce and taken to the detention center. I guess my profession now would be best described as… ‘defendant"
     scene bg desk_judge
-    show judge base
+    show char judge base
     Judge " Lumiere? Where have I heard Lumiere before…"
 
     Judge "Oh… OH"
@@ -50,6 +50,7 @@ label start:
     show char judge base
     Judge "..."
     scene bg desk_prosecutor
+    show char prosecutor
     Rex "..."
     scene bg desk_defendant
     show char detective
@@ -67,7 +68,7 @@ label start:
     show char main
     Verus "I had a lot to I wanted to say to her...but I suppose it will remain unsaid."
     scene bg desk_prosecutor
-    show char judge base
+    show char prosecutor
     Rex "What happened when you arrived at her estate?"
     scene bg desk_defendant
     show char main
@@ -125,6 +126,8 @@ Verus "!!"
 scene bg desk_judge
 show char judge base
 Judge  "Huhhh?"
+scene bg desk_prosecutor
+show char prosecutor
 Rex  "…"
 
 #(courtroom chatter)
@@ -145,8 +148,8 @@ show char main
 Verus "…because...of how I found the body."
 show char detective
 DetectiveLumiere "!!"
-scene bg desk_judge
-show char judge base
+scene bg desk_prosecutor
+show char prosecutor
 Rex "Maybe you should also testify to the state of the body as you discovered it, including the reason why you tampered with the evidence."
 scene bg desk_defendant
 show char main
