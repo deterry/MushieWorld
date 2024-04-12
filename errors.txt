@@ -3,8 +3,8 @@ errors listed below, and try again.
 
 
 File "game/script.rpy", line 24: end of line expected.
-    scene bg prosecutorDesk.png
-                           ^
+    scene bg desk prosecutor.png
+                            ^
 
 Ren'Py Version: Ren'Py 8.2.0.24012702
-Thu Apr 11 21:35:08 2024
+Thu Apr 11 21:43:23 2024
