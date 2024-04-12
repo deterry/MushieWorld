@@ -13,7 +13,7 @@ define Judge = Character("Judge")
 
 # The game starts here.
 label start:
-    play audio scrutinizing
+    play music song one
 
     # Show a background. This uses a placeholder by default, but you can
     # add a file (named either "bg room.png" or "bg room.jpg") to the
