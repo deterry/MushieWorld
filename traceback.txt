@@ -1,64 +1,40 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While processing the color property of anonymous style:
-  File "game/script.rpy", line 26, in script
-    Judge "Would you kindly state your name and occupation to this courtroom?"
-ValueError: invalid literal for int() with base 16: 'or'
+While running game code:
+  File "game/script.rpy", line 16, in script
+    play audio scrutinizing
+  File "renpy/common/000statements.rpy", line 124, in execute_play_music
+    renpy.music.play(_audio_eval(p["file"]),
+  File "renpy/common/000statements.rpy", line 33, in _audio_eval
+    return eval(expr, locals=store.audio.__dict__)
+  File "game/script.rpy", line 16, in <module>
+    play audio scrutinizing
+NameError: name 'scrutinizing' is not defined
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 26, in script
-    Judge "Would you kindly state your name and occupation to this courtroom?"
-  File "/Users/spaghettilover69420/Downloads/renpy-8.2.0-sdk/renpy/ast.py", line 2557, in execute
-    Say.execute(self)
-  File "/Users/spaghettilover69420/Downloads/renpy-8.2.0-sdk/renpy/ast.py", line 615, in execute
-    renpy.exports.say(who, what, *args, **kwargs)
-  File "/Users/spaghettilover69420/Downloads/renpy-8.2.0-sdk/renpy/exports.py", line 1493, in say
-    who(what, *args, **kwargs)
-  File "/Users/spaghettilover69420/Downloads/renpy-8.2.0-sdk/renpy/character.py", line 1391, in __call__
-    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
-  File "/Users/spaghettilover69420/Downloads/renpy-8.2.0-sdk/renpy/character.py", line 1042, in do_display
-    display_say(who,
-  File "/Users/spaghettilover69420/Downloads/renpy-8.2.0-sdk/renpy/character.py", line 738, in display_say
-    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
-  File "/Users/spaghettilover69420/Downloads/renpy-8.2.0-sdk/renpy/ui.py", line 301, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "/Users/spaghettilover69420/Downloads/renpy-8.2.0-sdk/renpy/display/core.py", line 2165, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
-  File "/Users/spaghettilover69420/Downloads/renpy-8.2.0-sdk/renpy/display/core.py", line 2683, in interact_core
-    root_widget.visit_all(lambda d : d.per_interact())
-  File "/Users/spaghettilover69420/Downloads/renpy-8.2.0-sdk/renpy/display/displayable.py", line 431, in visit_all
-    d.visit_all(callback, seen)
-  File "/Users/spaghettilover69420/Downloads/renpy-8.2.0-sdk/renpy/display/displayable.py", line 431, in visit_all
-    d.visit_all(callback, seen)
-  File "/Users/spaghettilover69420/Downloads/renpy-8.2.0-sdk/renpy/display/displayable.py", line 431, in visit_all
-    d.visit_all(callback, seen)
-  File "/Users/spaghettilover69420/Downloads/renpy-8.2.0-sdk/renpy/display/screen.py", line 485, in visit_all
-    self.child.visit_all(callback, seen=None)
-  File "/Users/spaghettilover69420/Downloads/renpy-8.2.0-sdk/renpy/display/displayable.py", line 431, in visit_all
-    d.visit_all(callback, seen)
-  File "/Users/spaghettilover69420/Downloads/renpy-8.2.0-sdk/renpy/display/displayable.py", line 431, in visit_all
-    d.visit_all(callback, seen)
-  File "/Users/spaghettilover69420/Downloads/renpy-8.2.0-sdk/renpy/display/displayable.py", line 431, in visit_all
-    d.visit_all(callback, seen)
-  [Previous line repeated 1 more time]
-  File "/Users/spaghettilover69420/Downloads/renpy-8.2.0-sdk/renpy/display/displayable.py", line 433, in visit_all
-    callback(self)
-  File "/Users/spaghettilover69420/Downloads/renpy-8.2.0-sdk/renpy/display/core.py", line 2683, in <lambda>
-    root_widget.visit_all(lambda d : d.per_interact())
-  File "/Users/spaghettilover69420/Downloads/renpy-8.2.0-sdk/renpy/text/text.py", line 1897, in per_interact
-    if self.style.slow_abortable:
-  File "gen3-static/styleclass.pxi", line 589, in renpy.styledata.styleclass.Style.slow_abortable.__get__
-  File "style.pyx", line 493, in renpy.style.StyleCore._get
-  File "style.pyx", line 717, in renpy.style.build_style
-  File "style.pyx", line 714, in renpy.style.build_style
-  File "gen3-static/style_functions.pyx", line 323, in style_functions.color_property
-  File "/Users/spaghettilover69420/Downloads/renpy-8.2.0-sdk/renpy/color.py", line 139, in __new__
-    r = int(c[:2], 16)
-ValueError: invalid literal for int() with base 16: 'or'
+  File "game/script.rpy", line 16, in script
+    play audio scrutinizing
+  File "/Users/spaghettilover69420/Downloads/renpy-8.2.0-sdk/renpy/ast.py", line 1968, in execute
+    self.call("execute")
+  File "/Users/spaghettilover69420/Downloads/renpy-8.2.0-sdk/renpy/ast.py", line 1950, in call
+    return renpy.statements.call(method, parsed, *args, **kwargs)
+  File "/Users/spaghettilover69420/Downloads/renpy-8.2.0-sdk/renpy/statements.py", line 349, in call
+    return method(parsed, *args, **kwargs)
+  File "renpy/common/000statements.rpy", line 124, in execute_play_music
+    renpy.music.play(_audio_eval(p["file"]),
+  File "renpy/common/000statements.rpy", line 33, in _audio_eval
+    return eval(expr, locals=store.audio.__dict__)
+  File "/Users/spaghettilover69420/Downloads/renpy-8.2.0-sdk/renpy/python.py", line 1209, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "/Users/spaghettilover69420/Downloads/renpy-8.2.0-sdk/renpy/python.py", line 1202, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 16, in <module>
+    play audio scrutinizing
+NameError: name 'scrutinizing' is not defined
 
 macOS-14.2.1-arm64-arm-64bit arm64
 Ren'Py 8.2.0.24012702
 HapticMediaMushroom 1.0
-Thu Apr 11 21:41:07 2024
+Thu Apr 11 22:37:17 2024
