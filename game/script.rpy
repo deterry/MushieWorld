@@ -9,11 +9,9 @@ define Verus = Character("Verus Lumiere")
 define anom = Character("???")
 define Rex = Character("Prosecutor Arlinpagne II")
 define Judge = Character("Judge")
-define Azazel = Character("Azazel")
 
 
 # The game starts here.
-
 label start:
 
 
@@ -21,18 +19,18 @@ label start:
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
 
-    scene bg desk_prosecutor
+    scene bg desk_judge
 
     Judge "Would you kindly state your name and occupation to this courtroom?"
-    
+    scene bg desk_defendant
     anom "…sure. i suppose i don’t mind."
 
     Verus "Vmy name is Verus Lumiere. i suppose i was a college student until about 8:10pm last night, when I was apprehended by detective bruntforce and taken to the detention center. I guess my profession now would be best described as… ‘defendant"
-
+    scene bg desk_judge
     Judge " Lumiere? Where have I heard Lumiere before…"
 
     Judge "Oh… OH"
-
+    scene bg desk_defendant
     DetectiveLumiere "…" 
 
     DetectiveLumiere "Are you sure you are comfortable talking about what happened to Myra?"
@@ -41,15 +39,16 @@ label start:
     Verus "I received a text from Myra at around 6:30pm."
     Verus "We haven’t spoken for some years, so I was caught off guard by her message."
     Verus "She said to meet her at her new place at 8:30pm."
-    
+
     DetectiveLumiere "She reached out to you? After keeping you in the dark for so long, why did she choose to speak with you now?"
-    
+
     Verus "I don’t know, and it seems like I will never know."
     Verus "She really wanted to fix our friendship that night, and she never got the chance..."
-    
+    scene bg desk_judge
     Judge "..."
+    scene bg desk_prosecutor
     Rex "..."
-    
+    scene bg desk_defendant
     DetectiveLumiere "Seems like everyone is feeling the impact of this travesty."
     
     Verus "...to think I even tried to see her earlier..."
@@ -63,9 +62,9 @@ label start:
     DetectiveLumiere "I suppose not."
     
     Verus "I had a lot to I wanted to say to her...but I suppose it will remain unsaid."
-    
+    scene bg desk_prosecutor
     Rex "What happened when you arrived at her estate?"
-    
+    scene bg desk_defendant
     Verus "It was about 7:45pm when I knocked on her door."
     Verus "She didn’t answer, but as I turned to leave, I heard a loud crash from inside."
     
@@ -88,9 +87,9 @@ label start:
     DetectiveLumiere "So you stood there and did nothing?"
     
     Verus "Yes, I- I was frozen in place."
-    
+    scene bg desk_judge
     Judge "That is understandable. I can’t imagine what you must have been going through your mind. I am sorry that you had to suffer such a terrible experience."
-    
+    scene bg desk_defendant
     DetectiveLumiere "..."
 
     DetectiveLumiere "I don’t know why, but I know Verus is not telling the whole truth."
@@ -115,28 +114,29 @@ Verus "...yes it is."
 DetectiveLumiere  "Then why were your fingerprints found on this lamp!"
 
 Verus "!!"
-
+scene bg desk_judge
 Judge  "Huhhh?"
-
+scene bg desk_prosecutor
 Rex  "…"
 
 #(courtroom chatter)
-
+scene bg desk_judge
 Judge  "Order please! We need to get to the bottom of this!"
 Judge "Verus, why did you lie about not touching the body?"
+scene bg desk_defendant
 Verus  "...because of how I found the body."
 DetectiveLumiere "!!"
-
+scene bg desk_judge
 Judge "Order please! We need to get to the bottom of this!"
 
 Judge "Verus, why did you lie about not touching the body?"
-
+scene bg desk_defendant
 Verus "…because...of how I found the body."
 
 DetectiveLumiere "!!"
-
+scene bg desk_prosecutor
 Rex "Maybe you should also testify to the state of the body as you discovered it, including the reason why you tampered with the evidence."
-
+scene bg desk_defendant
 Verus "…okay. I can do it."
 
 return
