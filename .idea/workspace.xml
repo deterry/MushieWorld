@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d78332f0-4b7d-4546-9e73-ef473b1767b0" name="Changes" comment="" />
+    <list default="true" id="d78332f0-4b7d-4546-9e73-ef473b1767b0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/game/images/prosecutorDesk.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/cache/bytecode-39.rpyb" beforeDir="false" afterPath="$PROJECT_DIR$/game/cache/bytecode-39.rpyb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/cache/screens.rpyb" beforeDir="false" afterPath="$PROJECT_DIR$/game/cache/screens.rpyb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/cache/shaders.txt" beforeDir="false" afterPath="$PROJECT_DIR$/game/cache/shaders.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/saves/navigation.json" beforeDir="false" afterPath="$PROJECT_DIR$/game/saves/navigation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/saves/persistent" beforeDir="false" afterPath="$PROJECT_DIR$/game/saves/persistent" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/script.rpy" beforeDir="false" afterPath="$PROJECT_DIR$/game/script.rpy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/script.rpyc" beforeDir="false" afterPath="$PROJECT_DIR$/game/script.rpyc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,21 +25,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2ez6FRkvMP1pMYkTVG8VJae0LO5" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

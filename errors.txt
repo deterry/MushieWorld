@@ -2,13 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 32: expected 'label_name' not found.
-    jump "Next"
-        ^
-
-File "game/script.rpy", line 35: expected 'label_name' not found.
-    jump "Next"
-        ^
+File "game/script.rpy", line 24: end of line expected.
+    scene bg prosecutorDesk.png
+                           ^
 
 Ren'Py Version: Ren'Py 8.2.0.24012702
-Fri Apr  5 15:38:27 2024
+Thu Apr 11 21:34:44 2024
