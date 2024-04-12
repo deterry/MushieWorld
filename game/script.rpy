@@ -4,12 +4,12 @@
 # name of the character.
 
 
-define DetectiveLumiere = Character("Elowen Lumiere", color="red")
-define Verus = Character("Verus Lumiere", color="blue")
-define anom = Character("???", color="green")
-define Rex = Character("Prosecutor Arlinpagne II", color="purple")
-define Judge = Character("Judge", color="orange")
-define Azazel = Character("Azazel", color="yellow")
+define DetectiveLumiere = Character("Elowen Lumiere")
+define Verus = Character("Verus Lumiere")
+define anom = Character("???")
+define Rex = Character("Prosecutor Arlinpagne II")
+define Judge = Character("Judge")
+define Azazel = Character("Azazel")
 
 
 # The game starts here.
