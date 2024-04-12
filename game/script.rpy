@@ -32,7 +32,7 @@ label start:
 
     Judge "Oh… OH"
     scene bg desk_defendant
-    Show char detective
+    show char detective
     DetectiveLumiere "…" 
 
     DetectiveLumiere "Are you sure you are comfortable talking about what happened to Myra?"
