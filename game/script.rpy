@@ -21,7 +21,7 @@ label start:
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
 
-    scene bg prosecutorDesk.png
+    scene bg desk prosecutor
 
     Judge "Would you kindly state your name and occupation to this courtroom?"
     

@@ -1,18 +1,35 @@
-2024-04-12 04:34:44 UTC
+2024-04-12 04:35:44 UTC
 macOS-14.2.1-arm64-arm-64bit
 Ren'Py 8.2.0.24012702
 
-Early init took 0.02s
+Early init took 0.03s
 Loading error handling took 0.02s
-Loading script took 0.06s
+Loading script took 0.08s
 Loading save slot metadata took 0.02s
 Loading persistent took 0.00s
-
-File "game/script.rpy", line 24: end of line expected.
-    scene bg prosecutorDesk.png
-                           ^
+Running init code took 0.02s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.01s
+Index archives took 0.00s
+Backing up script files to '/Users/spaghettilover69420/Library/RenPy/backups/MushieWorld':
+Dump and make backups took 0.02s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.01s
 DPI scale factor: 1.000000
-Interface start took 0.18s
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.01s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.03s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.19s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1280, 832)
@@ -24,3 +41,59 @@ Version: b'2.1 Metal - 88'
 Display Info: None
 Screen sizes: virtual=(1920, 1080) physical=(1178, 663) drawable=(2356, 1326)
 Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 26, in script
+    Judge "Would you kindly state your name and occupation to this courtroom?"
+  File "/Users/spaghettilover69420/Downloads/renpy-8.2.0-sdk/renpy/ast.py", line 2557, in execute
+    Say.execute(self)
+  File "/Users/spaghettilover69420/Downloads/renpy-8.2.0-sdk/renpy/ast.py", line 615, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "/Users/spaghettilover69420/Downloads/renpy-8.2.0-sdk/renpy/exports.py", line 1493, in say
+    who(what, *args, **kwargs)
+  File "/Users/spaghettilover69420/Downloads/renpy-8.2.0-sdk/renpy/character.py", line 1391, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
+  File "/Users/spaghettilover69420/Downloads/renpy-8.2.0-sdk/renpy/character.py", line 1042, in do_display
+    display_say(who,
+  File "/Users/spaghettilover69420/Downloads/renpy-8.2.0-sdk/renpy/character.py", line 738, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
+  File "/Users/spaghettilover69420/Downloads/renpy-8.2.0-sdk/renpy/ui.py", line 301, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "/Users/spaghettilover69420/Downloads/renpy-8.2.0-sdk/renpy/display/core.py", line 2165, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "/Users/spaghettilover69420/Downloads/renpy-8.2.0-sdk/renpy/display/core.py", line 2683, in interact_core
+    root_widget.visit_all(lambda d : d.per_interact())
+  File "/Users/spaghettilover69420/Downloads/renpy-8.2.0-sdk/renpy/display/displayable.py", line 431, in visit_all
+    d.visit_all(callback, seen)
+  File "/Users/spaghettilover69420/Downloads/renpy-8.2.0-sdk/renpy/display/displayable.py", line 431, in visit_all
+    d.visit_all(callback, seen)
+  File "/Users/spaghettilover69420/Downloads/renpy-8.2.0-sdk/renpy/display/displayable.py", line 431, in visit_all
+    d.visit_all(callback, seen)
+  File "/Users/spaghettilover69420/Downloads/renpy-8.2.0-sdk/renpy/display/screen.py", line 485, in visit_all
+    self.child.visit_all(callback, seen=None)
+  File "/Users/spaghettilover69420/Downloads/renpy-8.2.0-sdk/renpy/display/displayable.py", line 431, in visit_all
+    d.visit_all(callback, seen)
+  File "/Users/spaghettilover69420/Downloads/renpy-8.2.0-sdk/renpy/display/displayable.py", line 431, in visit_all
+    d.visit_all(callback, seen)
+  File "/Users/spaghettilover69420/Downloads/renpy-8.2.0-sdk/renpy/display/displayable.py", line 431, in visit_all
+    d.visit_all(callback, seen)
+  [Previous line repeated 1 more time]
+  File "/Users/spaghettilover69420/Downloads/renpy-8.2.0-sdk/renpy/display/displayable.py", line 433, in visit_all
+    callback(self)
+  File "/Users/spaghettilover69420/Downloads/renpy-8.2.0-sdk/renpy/display/core.py", line 2683, in <lambda>
+    root_widget.visit_all(lambda d : d.per_interact())
+  File "/Users/spaghettilover69420/Downloads/renpy-8.2.0-sdk/renpy/text/text.py", line 1897, in per_interact
+    if self.style.slow_abortable:
+  File "gen3-static/styleclass.pxi", line 589, in renpy.styledata.styleclass.Style.slow_abortable.__get__
+  File "style.pyx", line 493, in renpy.style.StyleCore._get
+  File "style.pyx", line 717, in renpy.style.build_style
+  File "style.pyx", line 714, in renpy.style.build_style
+  File "gen3-static/style_functions.pyx", line 323, in style_functions.color_property
+  File "/Users/spaghettilover69420/Downloads/renpy-8.2.0-sdk/renpy/color.py", line 139, in __new__
+    r = int(c[:2], 16)
+ValueError: invalid literal for int() with base 16: 'or'
+
+While processing the color property of anonymous style:
+  File "game/script.rpy", line 26, in script
+    Judge "Would you kindly state your name and occupation to this courtroom?"
+ValueError: invalid literal for int() with base 16: 'or'
