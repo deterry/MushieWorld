@@ -79,4 +79,4 @@ Exception: Could not find font 'ReactiveAnchor.ttf'.
 macOS-14.2.1-arm64-arm-64bit arm64
 Ren'Py 8.2.0.24012702
 HapticMediaMushroom 1.0
-Thu Apr 18 16:04:09 2024
+Thu Apr 18 16:05:46 2024
