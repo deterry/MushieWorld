@@ -13,7 +13,6 @@ define Judge = Character("Judge")
 
 # The game starts here.
 label start:
-    play music scrutinizing
     scene bg court_waitroom
     show char detective
     DetectiveLumiere "Heart racing, clammy hands, yep, I’m definitely back in the courtroom."
@@ -40,9 +39,7 @@ label start:
     # Show a background. This uses a placeholder by default, but you can
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
-    scene bg court_waitroom
-    show char detective
-    DetectiveLumiere "
+    play music scrutinizing
     scene bg desk_judge
     show char judge base
     Judge "Would you kindly state your name and occupation to this courtroom?"

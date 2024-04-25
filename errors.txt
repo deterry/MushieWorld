@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 35: expected statement.
-    Show char detective
-                       ^
+File "game/script.rpy", line 45: is not terminated with a newline. (Check strings and parenthesis.)
+(Perhaps you left out a " at the end of the first line.)
+        DetectiveLumiere "
 
 Ren'Py Version: Ren'Py 8.2.0.24012702
-Fri Apr 12 14:43:26 2024
+Wed Apr 24 18:03:00 2024
