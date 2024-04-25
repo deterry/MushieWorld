@@ -14,11 +14,35 @@ define Judge = Character("Judge")
 # The game starts here.
 label start:
     play music scrutinizing
-
+    scene bg court_waitroom
+    show char detective
+    DetectiveLumiere "Heart racing, clammy hands, yep, I’m definitely back in the courtroom."
+    DetectiveLumiere "I would have wished to never return to this place, but life has a way of taking unexpected turns…"
+    DetectiveLumiere "... I don't know if we can make it through this one."
+    DetectiveLumiere "But now is not the time to doubt myself"
+    DetectiveLumiere "Suppose its time to begin the actual debriefing of the case-"
+    show char prosecutor
+    Rex "I’m sorry Lady Lumiere, I’m afraid that is not possible."
+    show char detective
+    DetectiveLumiere "!!!"
+    show char prosecutor
+    Rex "Because this case is dealing with heavy matters within the department, the higher ups want this trial to progress as quickly as possible. I must carry out their orders as the Chief Prosecutor."
+    show char detective
+    DetectiveLumiere "…I understand Reginald."
+    show char prosecutor
+    Rex "That being said… I am deeply sorry for the position this puts you in. I wish for the most favorable outcome towards your endeavor."
+    show char detective
+    DetectiveLumiere "Thank you, Rex. Let's not prolong this trial any longer."
+    show char prosecutor
+    Rex "After you"
+    show char detective
+    DetectiveLumiere "No turning back now. May our skeletons stay inside of our closets."
     # Show a background. This uses a placeholder by default, but you can
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
-
+    scene bg court_waitroom
+    show char detective
+    DetectiveLumiere "
     scene bg desk_judge
     show char judge base
     Judge "Would you kindly state your name and occupation to this courtroom?"
