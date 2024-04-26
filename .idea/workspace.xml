@@ -4,7 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d78332f0-4b7d-4546-9e73-ef473b1767b0" name="Changes" comment="" />
+    <list default="true" id="d78332f0-4b7d-4546-9e73-ef473b1767b0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/game/images/card_A.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/cache/bytecode-39.rpyb" beforeDir="false" afterPath="$PROJECT_DIR$/game/cache/bytecode-39.rpyb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/cache/shaders.txt" beforeDir="false" afterPath="$PROJECT_DIR$/game/cache/shaders.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/saves/auto-1-LT1.save" beforeDir="false" afterPath="$PROJECT_DIR$/game/saves/auto-1-LT1.save" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/saves/auto-10-LT1.save" beforeDir="false" afterPath="$PROJECT_DIR$/game/saves/auto-10-LT1.save" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/saves/auto-2-LT1.save" beforeDir="false" afterPath="$PROJECT_DIR$/game/saves/auto-2-LT1.save" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/saves/auto-3-LT1.save" beforeDir="false" afterPath="$PROJECT_DIR$/game/saves/auto-3-LT1.save" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/saves/auto-4-LT1.save" beforeDir="false" afterPath="$PROJECT_DIR$/game/saves/auto-4-LT1.save" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/saves/auto-5-LT1.save" beforeDir="false" afterPath="$PROJECT_DIR$/game/saves/auto-5-LT1.save" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/saves/auto-6-LT1.save" beforeDir="false" afterPath="$PROJECT_DIR$/game/saves/auto-6-LT1.save" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/saves/auto-7-LT1.save" beforeDir="false" afterPath="$PROJECT_DIR$/game/saves/auto-7-LT1.save" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/saves/auto-8-LT1.save" beforeDir="false" afterPath="$PROJECT_DIR$/game/saves/auto-8-LT1.save" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/saves/auto-9-LT1.save" beforeDir="false" afterPath="$PROJECT_DIR$/game/saves/auto-9-LT1.save" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/saves/navigation.json" beforeDir="false" afterPath="$PROJECT_DIR$/game/saves/navigation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/saves/persistent" beforeDir="false" afterPath="$PROJECT_DIR$/game/saves/persistent" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,15 +41,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/spaghettilover69420/Downloads/renpy-8.2.0-sdk/MushieWorld/game/images"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/spaghettilover69420/Downloads/renpy-8.2.0-sdk/MushieWorld/game/images&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/game/images" />
