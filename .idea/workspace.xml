@@ -5,18 +5,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d78332f0-4b7d-4546-9e73-ef473b1767b0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/game/audio/BeforeTheTrial.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/audio/CourtroomChatter.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/audio/Gavel.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/audio/GlassAudio.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/images/bg courtroom_chatter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/images/card_B.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/images/card_C.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/images/card_D.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/images/card_E.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/images/card_back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/images/card_empty.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/errors.txt" beforeDir="false" afterPath="$PROJECT_DIR$/errors.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game/cache/bytecode-39.rpyb" beforeDir="false" afterPath="$PROJECT_DIR$/game/cache/bytecode-39.rpyb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game/cache/screens.rpyb" beforeDir="false" afterPath="$PROJECT_DIR$/game/cache/screens.rpyb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game/cache/shaders.txt" beforeDir="false" afterPath="$PROJECT_DIR$/game/cache/shaders.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/images/char detective.png" beforeDir="false" afterPath="$PROJECT_DIR$/game/images/char detective.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/images/char judge base.png" beforeDir="false" afterPath="$PROJECT_DIR$/game/images/char judge base.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/images/char main.png" beforeDir="false" afterPath="$PROJECT_DIR$/game/images/char main.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/images/char prosecutor.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/game/images/char prosecutor.PNG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game/saves/_reload-2-LT1.save" beforeDir="false" afterPath="$PROJECT_DIR$/game/saves/_reload-2-LT1.save" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/saves/auto-1-LT1.save" beforeDir="false" afterPath="$PROJECT_DIR$/game/saves/auto-1-LT1.save" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/saves/auto-10-LT1.save" beforeDir="false" afterPath="$PROJECT_DIR$/game/saves/auto-10-LT1.save" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/saves/auto-2-LT1.save" beforeDir="false" afterPath="$PROJECT_DIR$/game/saves/auto-2-LT1.save" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/saves/auto-3-LT1.save" beforeDir="false" afterPath="$PROJECT_DIR$/game/saves/auto-3-LT1.save" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/saves/auto-4-LT1.save" beforeDir="false" afterPath="$PROJECT_DIR$/game/saves/auto-4-LT1.save" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/saves/auto-5-LT1.save" beforeDir="false" afterPath="$PROJECT_DIR$/game/saves/auto-5-LT1.save" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/saves/auto-6-LT1.save" beforeDir="false" afterPath="$PROJECT_DIR$/game/saves/auto-6-LT1.save" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/saves/auto-7-LT1.save" beforeDir="false" afterPath="$PROJECT_DIR$/game/saves/auto-7-LT1.save" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/saves/auto-8-LT1.save" beforeDir="false" afterPath="$PROJECT_DIR$/game/saves/auto-8-LT1.save" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/saves/auto-9-LT1.save" beforeDir="false" afterPath="$PROJECT_DIR$/game/saves/auto-9-LT1.save" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game/saves/navigation.json" beforeDir="false" afterPath="$PROJECT_DIR$/game/saves/navigation.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game/saves/persistent" beforeDir="false" afterPath="$PROJECT_DIR$/game/saves/persistent" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game/script.rpy" beforeDir="false" afterPath="$PROJECT_DIR$/game/script.rpy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game/script.rpyc" beforeDir="false" afterPath="$PROJECT_DIR$/game/script.rpyc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/traceback.txt" beforeDir="false" afterPath="$PROJECT_DIR$/traceback.txt" afterDir="false" />
+    </list>
+    <list id="f4cccda3-f977-492b-84a9-3acc5f3f0565" name="Changes by briancuellar" comment="">
+      <change beforePath="$PROJECT_DIR$/game/script.rpy" beforeDir="false" afterPath="$PROJECT_DIR$/game/script.rpy" afterDir="false" />
+    </list>
+    <list id="2b43a82d-b9e6-4333-824e-a4ced879c37d" name="Changes by joseb" comment="">
+      <change beforePath="$PROJECT_DIR$/game/gui.rpy" beforeDir="false" afterPath="$PROJECT_DIR$/game/gui.rpy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/script.rpy" beforeDir="false" afterPath="$PROJECT_DIR$/game/script.rpy" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +57,46 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/game/script.rpy">
+      <ranges>
+        <range start1="12" end1="13" start2="12" end2="13" changelist="f4cccda3-f977-492b-84a9-3acc5f3f0565" />
+        <range start1="16" end1="16" start2="16" end2="18" changelist="f4cccda3-f977-492b-84a9-3acc5f3f0565" />
+        <range start1="21" end1="22" start2="23" end2="24" changelist="2b43a82d-b9e6-4333-824e-a4ced879c37d" />
+        <range start1="27" end1="28" start2="29" end2="31" changelist="2b43a82d-b9e6-4333-824e-a4ced879c37d" />
+        <range start1="29" end1="30" start2="32" end2="32" changelist="2b43a82d-b9e6-4333-824e-a4ced879c37d" />
+        <range start1="31" end1="32" start2="33" end2="33" changelist="2b43a82d-b9e6-4333-824e-a4ced879c37d" />
+        <range start1="33" end1="34" start2="34" end2="34" changelist="2b43a82d-b9e6-4333-824e-a4ced879c37d" />
+        <range start1="35" end1="36" start2="35" end2="35" changelist="2b43a82d-b9e6-4333-824e-a4ced879c37d" />
+        <range start1="37" end1="38" start2="36" end2="36" changelist="2b43a82d-b9e6-4333-824e-a4ced879c37d" />
+        <range start1="39" end1="40" start2="37" end2="37" changelist="2b43a82d-b9e6-4333-824e-a4ced879c37d" />
+        <range start1="41" end1="42" start2="38" end2="38" changelist="2b43a82d-b9e6-4333-824e-a4ced879c37d" />
+        <range start1="43" end1="43" start2="39" end2="40" changelist="f4cccda3-f977-492b-84a9-3acc5f3f0565" />
+        <range start1="45" end1="45" start2="42" end2="43" changelist="f4cccda3-f977-492b-84a9-3acc5f3f0565" />
+        <range start1="48" end1="49" start2="46" end2="47" changelist="d78332f0-4b7d-4546-9e73-ef473b1767b0" />
+        <range start1="50" end1="52" start2="48" end2="50" changelist="2b43a82d-b9e6-4333-824e-a4ced879c37d" />
+        <range start1="62" end1="63" start2="60" end2="61" changelist="2b43a82d-b9e6-4333-824e-a4ced879c37d" />
+        <range start1="64" end1="65" start2="62" end2="63" changelist="2b43a82d-b9e6-4333-824e-a4ced879c37d" />
+        <range start1="70" end1="70" start2="68" end2="69" changelist="f4cccda3-f977-492b-84a9-3acc5f3f0565" />
+        <range start1="82" end1="86" start2="81" end2="85" changelist="2b43a82d-b9e6-4333-824e-a4ced879c37d" />
+        <range start1="108" end1="109" start2="107" end2="108" changelist="2b43a82d-b9e6-4333-824e-a4ced879c37d" />
+        <range start1="117" end1="118" start2="116" end2="117" changelist="2b43a82d-b9e6-4333-824e-a4ced879c37d" />
+        <range start1="133" end1="134" start2="132" end2="133" changelist="2b43a82d-b9e6-4333-824e-a4ced879c37d" />
+        <range start1="147" end1="148" start2="146" end2="147" changelist="2b43a82d-b9e6-4333-824e-a4ced879c37d" />
+        <range start1="155" end1="156" start2="154" end2="155" changelist="2b43a82d-b9e6-4333-824e-a4ced879c37d" />
+        <range start1="162" end1="162" start2="161" end2="162" changelist="f4cccda3-f977-492b-84a9-3acc5f3f0565" />
+        <range start1="163" end1="163" start2="163" end2="164" changelist="f4cccda3-f977-492b-84a9-3acc5f3f0565" />
+        <range start1="170" end1="171" start2="171" end2="172" changelist="2b43a82d-b9e6-4333-824e-a4ced879c37d" />
+        <range start1="191" end1="192" start2="192" end2="193" changelist="2b43a82d-b9e6-4333-824e-a4ced879c37d" />
+        <range start1="198" end1="199" start2="199" end2="200" changelist="2b43a82d-b9e6-4333-824e-a4ced879c37d" />
+        <range start1="217" end1="218" start2="218" end2="219" changelist="2b43a82d-b9e6-4333-824e-a4ced879c37d" />
+        <range start1="244" end1="244" start2="245" end2="257" changelist="f4cccda3-f977-492b-84a9-3acc5f3f0565" />
+        <range start1="247" end1="247" start2="260" end2="261" changelist="f4cccda3-f977-492b-84a9-3acc5f3f0565" />
+        <range start1="253" end1="262" start2="267" end2="267" changelist="d78332f0-4b7d-4546-9e73-ef473b1767b0" />
+        <range start1="267" end1="271" start2="272" end2="283" changelist="d78332f0-4b7d-4546-9e73-ef473b1767b0" />
+      </ranges>
+    </file>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -37,17 +109,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/spaghettilover69420/Downloads/renpy-8.2.0-sdk/MushieWorld/game/images&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/spaghettilover69420/Downloads/renpy-8.2.0-sdk/MushieWorld/game/images"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/game/images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/game/audio" />
       <recent name="$PROJECT_DIR$/game/images" />
     </key>
   </component>

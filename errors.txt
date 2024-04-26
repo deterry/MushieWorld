@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 223: expected statement.
-    fade out running
-                    ^
+File "game/script.rpy", line 164: expected statement.
+    PLA
+       ^
 
 Ren'Py Version: Ren'Py 8.2.0.24012702
-Thu Apr 25 20:41:03 2024
+Thu Apr 25 21:51:00 2024
