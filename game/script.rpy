@@ -253,7 +253,6 @@ show char detective
 DetectiveLumiere "!!"
 scene bg desk_judge
 show char judge base
-Judge "Order please! We need to get to the bottom of this!"
 
 Judge "Verus, why did you lie about not touching the body?"
 scene bg desk_defendant
