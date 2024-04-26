@@ -21,14 +21,16 @@ label start:
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
     scene bg court_waitroom
+
     show char detective at center
+
     DetectiveLumiere "Heart racing, clammy hands, yep, I’m definitely back in the courtroom."
     DetectiveLumiere "I would have wished to never return to this place, but life has a way of taking unexpected turns…"
     DetectiveLumiere "... I don't know if we can make it through this one."
     DetectiveLumiere "But now is not the time to doubt myself"
     DetectiveLumiere "Suppose its time to begin the actual debriefing of the case-"
-    show char prosecutor at left
-    show char detective at right
+
+    show char prosecutor
     Rex "I’m sorry Lady Lumiere, I’m afraid that is not possible."
     DetectiveLumiere "!!!"
     Rex "Because this case is dealing with heavy matters within the department, the higher ups want this trial to progress as quickly as possible. I must carry out their orders as the Chief Prosecutor."
@@ -144,7 +146,7 @@ label start:
     Lum "...I suppose not."
     scene bg desk_defendant
     show char main
-    Verus "I had a lot to I wanted to say to her...but I suppose it will have to remain unsaid."
+    Verus "I had a lot I wanted to say to her...but I suppose it will have to remain unsaid."
     scene bg desk_prosecutor
     show char prosecutor
     Rex "What happened when you arrived at her estate?"
@@ -224,6 +226,12 @@ DetectiveLumiere "..."
 
 DetectiveLumiere  "Verus, if you want me to get you out of this situation, you’re going to have to tell the truth."
 show char main
+menu:
+    Verus "Should I tell them more?"
+    "DESIST!":
+        Verus "But wait, if I don't tell them the truth, we'll never get justice!"
+    "PERSIST!":
+        Verus "...okay..."
 Verus "!!"
 show char detective
 DetectiveLumiere  "You said that you 'hovered in front of her corpse until Bruntforce arrived'. Is this true?"
