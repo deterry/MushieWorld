@@ -198,7 +198,7 @@ label start:
     show char main
     Verus "Yes, i- i was frozen in place."
     scene bg desk_judge
-    show char Judge
+    show char judge base
     Judge "Well, that's understandable. The experience must have been very traumatic for you."
     Judge "I am sorry that you had to suffer such a terrible experience."
     scene bg desk_prosecutor
