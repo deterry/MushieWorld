@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 45: is not terminated with a newline. (Check strings and parenthesis.)
-(Perhaps you left out a " at the end of the first line.)
-        DetectiveLumiere "
+File "game/script.rpy", line 223: expected statement.
+    fade out running
+                    ^
 
 Ren'Py Version: Ren'Py 8.2.0.24012702
-Wed Apr 24 18:03:00 2024
+Thu Apr 25 20:41:03 2024
